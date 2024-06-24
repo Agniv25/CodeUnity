@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+}
+.create-file-window {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    /* margin:auto; */
+  }
+  
+  
+  .create-file-form h1 {
+    font-size: 1.5rem;
+    padding:0.7rem;
+   
+  }
+  .create-file-form span {
+    color: #2ecc71;
+  }
+  .create-file-form {
+    height: 40%;
+    width: 30%;
+    background-color: #0f1218;
+    border-radius: 10px;
+    display:flex;
+    flex-direction:column;
+  
+    color: #57606f;
+    font-family: "railway", sans-serif;
+    font-size: 1rem;
+    padding: 0.8rem;
+  }
+  .create-file-form input {
+    margin-bottom: 0.5rem;
+    width: 100%;
+    padding: 3px;
+    font-weight: bold;
+    outline:none;
+    background-color:white;
+    border-radius:3px;
+    font-size:0.9rem;
+    border:none;
+    
+  
+    padding:0.5rem;
+  }
+  .create-file-form p {
+    margin-bottom: 0.5rem;
+    color: #abacae
+    font-family: "roboto", sans-serif;
+  }
+  .create-file-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  .create-file-form button{
+    width:40%;
+    background-color: #2ecc71;
+    border:none;
+    padding:0.5rem;
+    border-radius:3px;
+    font-weight:bold;
+    margin-left:auto;
+    margin-top:0.8rem;
+    font-family: "roboto", sans-serif;
+    cursor:pointer;
+  }

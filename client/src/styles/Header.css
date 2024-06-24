@@ -1,0 +1,60 @@
+.header {
+  background-color: #0f1218;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 1.5rem;
+  width: 100vw;
+  height: 10vh;
+  font-family: "IBM Plex Sans", sans-serif;
+  /* margin:auto 0; */
+  /* padding:0.1rem; */
+}
+.header button {
+  width: 5rem;
+  height: 2.5rem;
+  background-color: #044a10;
+  border: none;
+  border-radius: 3px;
+  font-weight: bold;
+  margin: auto 0;
+  color: white;
+  font-family: "IBM Plex Sans" sans-serif;
+}
+.header h1 {
+  color: white;
+  font-size: 1.5rem;
+  /* font-family: "IBM Plex Sans", sans-serif; */
+  padding: 1rem;
+}
+.header span {
+  color: #2ecc71;
+}
+.faBar {
+  padding: 0 0.5rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-bottom: 0.1rem;
+}
+.dropdown-content {
+  position: absolute;
+  background-color: #1e293b;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0);
+  margin: 3rem 1rem;
+  z-index: 1;
+  border-radius: 5px;
+}
+.dropdown-content a {
+  color: white;
+  padding: 12px 0;
+  text-decoration: none;
+  font-size: 0.8rem;
+  display: block;
+  font-family: "IBM Plex Sans";
+}
+.dropdown-content a:hover {
+  color: #a5aaaf;
+}
+.dropdown-icon {
+  padding: 0 0.5rem;
+}
